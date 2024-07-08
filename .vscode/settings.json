@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true, // 저장시 format
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  // Enable per-language
+  "[javascript]": {
+    // "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.formatOnSave": true,
+  },
+  "[javascriptreact]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.settings.useSplitJSON": true // 요거 넣어줘야 설정이 merge된대요.
+}
